@@ -1,0 +1,41 @@
+.sidebar{
+    width: 300px;
+    height: 100vh;
+    background-color: rgba(236, 236, 236, 0.533);
+    .items{
+        background-color:#f1fbff;
+        width: 180px;
+        height: 70px;
+        border-radius: 10px;
+        margin-top: 20px;
+        -webkit-box-shadow: 1px 2px 12px 0px rgba(0,0,0,0.42); 
+box-shadow: 1px 2px 12px 0px rgba(0,0,0,0.42);
+        span{
+            font-weight: 800;
+            font-size: 18px;
+        }
+    }
+    .icon{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar{
+        width: 100vw;
+        height: 70px;
+        flex-direction: row !important;
+        align-items:center;
+        justify-content:space-around;
+        .logo{
+            margin-left: 50px;
+        }
+        .items{
+            display: none !important;
+            
+        }
+        .icon{
+            display: block;
+        }
+    }
+  }

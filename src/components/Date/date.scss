@@ -1,0 +1,16 @@
+.date{
+    width: 60px;
+    height: 90px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 3px solid rgb(33, 82, 245);
+    border-radius: 5px;
+    .Date{
+        font-size: 20px;
+    }
+    &:hover{
+        background-color: green;
+        color: #fff;
+    }
+}
